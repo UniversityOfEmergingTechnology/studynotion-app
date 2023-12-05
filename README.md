@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Route Navigator - Private Routes & User Authentication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Route Navigator is a React-based web application designed to showcase the implementation of routing, private routes, and user authentication. The application features multiple routes, some of which are accessible only to authenticated users, providing a practical insight into securing certain parts of a React application.
 
-## Available Scripts
+## Learning Objectives
+- **React Routing**: Gain a deeper understanding of how routing works in React applications.
+- **Private Routes**: Learn to create routes that are accessible only to authenticated users.
+- **User Authentication**: Implement a basic user authentication system.
+- **Protected Navigation**: Understand the process of protecting certain routes based on user authentication status.
 
-In the project directory, you can run:
+## Features
+- **Multiple Routes**: Experience navigating between different routes in a React application.
+- **Authentication System**: Simulated user authentication to demonstrate protected routes.
+- **Private Routes**: Routes that require user authentication to access.
+- **Public Routes**: Unrestricted routes accessible to all users.
+- **Dynamic Navigation**: Depending on authentication status, the navigation experience changes.
 
-### `npm start`
+## Installation
+```bash
+git clone https://github.com/UniversityOfEmergingTechnology/studynotion-app.git
+cd route-navigator
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+Navigate through the app to explore different routes. Attempt accessing private routes before and after authentication to see how the application responds.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+If you'd like to contribute to the Route Navigator project, please follow standard GitHub practices by forking the repository, making changes, and submitting a pull request.
 
-### `npm test`
+## License
+This project is released under the MIT License.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contact
+For any questions or feedback regarding this project, feel free to contact me at emergingtechuniversity@gmail.com.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
